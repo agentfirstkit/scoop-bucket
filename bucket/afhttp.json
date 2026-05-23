@@ -1,0 +1,9 @@
+{
+  "version": "0.4.3",
+  "description": "Persistent HTTP client for AI agents — one request, one JSON line",
+  "homepage": "https://github.com/agentfirstkit/agent-first-http",
+  "license": "MIT",
+  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.4.3/afhttp-v0.4.3-x86_64-pc-windows-msvc.zip",
+  "hash": "19d64be5d50ee1ff5a2dea24b57be1339713c7da55ec35c5792288f1046df3bf",
+  "bin": "afhttp.exe"
+}
