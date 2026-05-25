@@ -1,9 +1,9 @@
 {
-  "version": "0.5.0",
-  "description": "A PostgreSQL tool for AI agents — SQL in, typed rows out, on a connection that stays open.",
+  "version": "0.6.0",
+  "description": "A PostgreSQL interface for AI agents: reliable, structured, explicit, and safe by default.",
   "homepage": "https://github.com/agentfirstkit/agent-first-psql",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.5.0/afpsql-v0.5.0-x86_64-pc-windows-msvc.zip",
-  "hash": "655575977fc2c5025c04a24e62080a0198e9b74f6852755d0c99a46c6ebb68cd",
+  "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.6.0/afpsql-v0.6.0-x86_64-pc-windows-msvc.zip",
+  "hash": "091659ebe78d8f84f8191d48b0428a7424476cf1e2a622074cf158741b70f53e",
   "bin": "afpsql.exe"
 }
