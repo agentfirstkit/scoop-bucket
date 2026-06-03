@@ -1,9 +1,9 @@
 {
-  "version": "0.4.3",
-  "description": "Persistent HTTP client for AI agents — one request, one JSON line",
+  "version": "0.5.0",
+  "description": "Give an AI agent any URL and get back a usable page — fetched directly, or rendered in a real browser when the page needs one — with a human able to take over the same browser for a login, captcha, or 2FA.",
   "homepage": "https://github.com/agentfirstkit/agent-first-http",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.4.3/afhttp-v0.4.3-x86_64-pc-windows-msvc.zip",
-  "hash": "19d64be5d50ee1ff5a2dea24b57be1339713c7da55ec35c5792288f1046df3bf",
+  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.5.0/afhttp-v0.5.0-x86_64-pc-windows-msvc.zip",
+  "hash": "f09cf74dfaa2182dd094cfec971f58feee1838e36bca68b0c742fa0af8739ad3",
   "bin": "afhttp.exe"
 }
