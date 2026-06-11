@@ -1,9 +1,9 @@
 {
-  "version": "0.6.0",
-  "description": "Give an AI agent any URL and get back a usable page — fetched directly, or rendered in a real browser when the page needs one — with a human able to take over the same browser for a login, captcha, or 2FA.",
+  "version": "0.7.0",
+  "description": "Give an AI agent its own isolated browser to actually open a URL — running JavaScript when the page needs it and returning the page as files the agent can read — so it works from the real page instead of a search guess, an empty app shell, or a login wall, all without touching the browser you use every day.",
   "homepage": "https://github.com/agentfirstkit/agent-first-http",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.6.0/afhttp-v0.6.0-x86_64-pc-windows-msvc.zip",
-  "hash": "8f67103d0a6f08496d33aa88ad28dd1f4cd97af9f21ba10fd2073b633957cb97",
+  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.7.0/afhttp-v0.7.0-x86_64-pc-windows-msvc.zip",
+  "hash": "e167a998d55c15f2b3eb28a2472a78a1629284132219112b118c11583aab1833",
   "bin": "afhttp.exe"
 }
