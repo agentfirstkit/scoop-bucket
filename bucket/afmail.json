@@ -1,9 +1,9 @@
 {
-  "version": "0.1.0",
-  "description": "Give your AI agent a mailbox it can actually work in — your mail pulled down into plain files it reads, triages, drafts, and files entirely on your machine, with nothing sent or changed on the real mailbox until you confirm.",
+  "version": "0.2.0",
+  "description": "Let your AI agent work your inbox — email pulled into plain files it reads, sorts, and drafts on your machine, with nothing sent until you confirm.",
   "homepage": "https://github.com/agentfirstkit/agent-first-mail",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-mail/releases/download/v0.1.0/afmail-v0.1.0-x86_64-pc-windows-msvc.zip",
-  "hash": "07ec294a9f7a9f6cd09500bea829f5b8d2157f2c5517209c24711ae6226d1483",
+  "url": "https://github.com/agentfirstkit/agent-first-mail/releases/download/v0.2.0/afmail-v0.2.0-x86_64-pc-windows-msvc.zip",
+  "hash": "4427dac0f41a4a5c51216cf0dfdc0f7c970af7fb8054062c31f550626e62d068",
   "bin": "afmail.exe"
 }
