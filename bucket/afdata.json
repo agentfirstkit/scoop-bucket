@@ -1,0 +1,9 @@
+{
+  "version": "0.16.0",
+  "description": "A naming convention that lets AI agents understand your data without being told what it means.",
+  "homepage": "https://github.com/agentfirstkit/agent-first-data",
+  "license": "MIT",
+  "url": "https://github.com/agentfirstkit/agent-first-data/releases/download/v0.16.0/afdata-v0.16.0-x86_64-pc-windows-msvc.zip",
+  "hash": "6dcd91f28cb40fc3da68d20dd4f5968e3446091966c385ec04a203349ac54286",
+  "bin": "afdata.exe"
+}
