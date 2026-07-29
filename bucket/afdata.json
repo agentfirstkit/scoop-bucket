@@ -1,9 +1,9 @@
 {
-  "version": "0.26.1",
+  "version": "0.26.2",
   "description": "A naming convention that lets AI agents understand your data without being told what it means, plus a CLI and library for reading and safely editing structured JSON, TOML, YAML, dotenv, and INI documents.",
   "homepage": "https://github.com/agentfirstkit/agent-first-data",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-data/releases/download/v0.26.1/afdata-v0.26.1-x86_64-pc-windows-msvc.zip",
-  "hash": "4af48b32ae847dc699c5772cf9d868eef4fd8c7ed637f96d15a81c6ce973744a",
+  "url": "https://github.com/agentfirstkit/agent-first-data/releases/download/v0.26.2/afdata-v0.26.2-x86_64-pc-windows-msvc.zip",
+  "hash": "51af4477ef49e5938b7f9fee882577b28ac59a0837e2e19fb4b4043ebc63b9e0",
   "bin": ["afdata.exe"]
 }
