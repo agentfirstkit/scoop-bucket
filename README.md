@@ -13,7 +13,7 @@ Homepage: https://agentfirstkit.com
 
 | Manifest | Version | Description |
 |---|---|---|
-| [afdata](bucket/afdata.json) | 0.30.0 | A naming convention that lets AI agents understand your data without being told what it means, plus a CLI and library for reading Markdown structure and safely editing structured JSON, TOML, YAML, dotenv, and INI documents. |
+| [afdata](bucket/afdata.json) | 0.31.0 | A naming convention that lets AI agents understand your data without being told what it means, plus a CLI and library for reading Markdown structure and safely editing structured JSON, TOML, YAML, dotenv, and INI documents. |
 | [afhttp](bucket/afhttp.json) | 0.10.1 | Give your AI agent its own private browser — so it reads the real page, past logins and bot walls, without ever touching yours. |
 | [afmail](bucket/afmail.json) | 0.8.0 | Let your AI agent work your inbox — email pulled into plain files it reads, sorts, and drafts on your machine, with nothing sent until you confirm. |
 | [afpay](bucket/afpay.json) | 0.9.0 | A payment tool for AI agents — send and receive across five networks through one interface, with spending limits you control. |
