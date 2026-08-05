@@ -1,9 +1,9 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A payment tool for AI agents — send and receive across five networks through one interface, with spending limits you control.",
   "homepage": "https://github.com/agentfirstkit/agent-first-pay",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-pay/releases/download/v0.9.0/afpay-v0.9.0-x86_64-pc-windows-msvc.zip",
-  "hash": "bda187b8c9becd931f3fed34f87df5bdc5edd82323c07f93f56a7263461ae126",
+  "url": "https://github.com/agentfirstkit/agent-first-pay/releases/download/v0.9.1/afpay-v0.9.1-x86_64-pc-windows-msvc.zip",
+  "hash": "45a6e425dd90cc4dbb20f98b6fb1da52960e335f0c39683f0b16bfe5a696a782",
   "bin": ["afpay.exe"]
 }
