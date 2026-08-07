@@ -1,9 +1,9 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Give your AI agent its own private browser — so it reads the real page, past logins and bot walls, without ever touching yours.",
   "homepage": "https://github.com/agentfirstkit/agent-first-http",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.11.0/afhttp-v0.11.0-x86_64-pc-windows-msvc.zip",
-  "hash": "9a465ddd78b377c898ad3fe6b4004a8ebeb9893716712e996062c42e38c03c3d",
+  "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.12.0/afhttp-v0.12.0-x86_64-pc-windows-msvc.zip",
+  "hash": "d63cf3492701ed1c9bef8bce93646747bcb4072a786da3c3fda99186b63fc764",
   "bin": ["afhttp.exe"]
 }
