@@ -1,0 +1,9 @@
+{
+  "version": "0.3.0",
+  "description": "Let your AI agent hand you a real interface when a step needs a person — a window opens, you decide, and the agent gets a typed answer back.",
+  "homepage": "https://github.com/agentfirstkit/agent-first-ui",
+  "license": "MIT",
+  "url": "https://github.com/agentfirstkit/agent-first-ui/releases/download/v0.3.0/afui-v0.3.0-x86_64-pc-windows-msvc.zip",
+  "hash": "45850582688b9722e145204befb879f2469986c1b2cca74d5e83a6f1c16b9f11",
+  "bin": ["afui.exe"]
+}
