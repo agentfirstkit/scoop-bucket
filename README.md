@@ -15,7 +15,7 @@ Homepage: https://agentfirstkit.com
 |---|---|---|
 | [afdata](bucket/afdata.json) | 0.32.1 | A naming convention that lets AI agents understand your data without being told what it means, plus a CLI and library for reading Markdown structure and safely editing structured JSON, TOML, YAML, dotenv, and INI documents. |
 | [afhttp](bucket/afhttp.json) | 0.12.0 | Give your AI agent its own private browser — so it reads the real page, past logins and bot walls, without ever touching yours. |
-| [afmail](bucket/afmail.json) | 0.9.0 | Let your AI agent work your inbox — email pulled into plain files it reads, sorts, and drafts on your machine, with nothing sent until you confirm. |
+| [afmail](bucket/afmail.json) | 0.10.0 | Let your AI agent work your inbox — email pulled into plain files it reads, sorts, and drafts on your machine, with nothing sent until you confirm. |
 | [afpay](bucket/afpay.json) | 0.9.1 | A payment tool for AI agents — send and receive across five networks through one interface, with spending limits you control. |
 | [afpsql](bucket/afpsql.json) | 0.10.0 | A PostgreSQL interface for AI agents: reliable, structured, explicit, and read-only by default. |
 | [afslug](bucket/afslug.json) | 0.6.2 | Rust slug generation with explicit caller configuration for path and URL path segments. |
