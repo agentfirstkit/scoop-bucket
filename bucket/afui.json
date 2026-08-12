@@ -1,9 +1,9 @@
 {
-  "version": "0.3.1",
-  "description": "Let your AI agent hand you a real interface when a step needs a person — a window opens, you decide, and the agent gets a typed answer back.",
+  "version": "0.4.0",
+  "description": "Let your AI agent hand you a real interface when a step needs a person — a window opens, values can stay live in both directions, and the session ends with one typed outcome.",
   "homepage": "https://github.com/agentfirstkit/agent-first-ui",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-ui/releases/download/v0.3.1/afui-v0.3.1-x86_64-pc-windows-msvc.zip",
-  "hash": "3e54f132df8fd75d8b94ff82b78c44e45fb296c236d726c7ebae495aa01ccddb",
+  "url": "https://github.com/agentfirstkit/agent-first-ui/releases/download/v0.4.0/afui-v0.4.0-x86_64-pc-windows-msvc.zip",
+  "hash": "44a8a547bab4f6d80ab5b0611ebdd619703a9d59c9942e5247596563231f312d",
   "bin": ["afui.exe"]
 }
