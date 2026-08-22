@@ -1,9 +1,15 @@
 {
-  "version": "0.6.2",
-  "description": "Rust slug generation with explicit caller configuration for path and URL path segments.",
+  "version": "0.7.0",
+  "description": "Deterministic Unicode slugs for filesystem and URL segments",
   "homepage": "https://github.com/agentfirstkit/agent-first-slug",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-slug/releases/download/v0.6.2/afslug-v0.6.2-x86_64-pc-windows-msvc.zip",
-  "hash": "fd439ec6260962808bf2b36966f8c12a6cbb6b3ef5b35249d3def71a2c290b16",
-  "bin": ["afslug.exe"]
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/agentfirstkit/agent-first-slug/releases/download/v0.7.0/afslug-v0.7.0-x86_64-pc-windows-msvc.zip",
+      "hash": "890450330fb8fe3f02261bb2017890482e8cccfd5902b2843903ff8b52fa8437"
+    }
+  },
+  "bin": [
+    "afslug.exe"
+  ]
 }
