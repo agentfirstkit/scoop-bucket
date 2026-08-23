@@ -22,6 +22,6 @@ Then run one complete 64-bit Windows install command from the table.
 | [afpay](bucket/afpay.json) | 0.9.1 | `scoop install agentfirstkit/afpay` | Policy-controlled payments across multiple wallet networks |
 | [afpsql](bucket/afpsql.json) | 0.10.0 | `scoop install agentfirstkit/afpsql` | Structured PostgreSQL access with explicit read and write modes |
 | [afslug](bucket/afslug.json) | 0.7.1 | `scoop install agentfirstkit/afslug` | Deterministic Unicode slugs for filesystem and URL segments |
-| [afui](bucket/afui.json) | 0.4.0 | `scoop install agentfirstkit/afui` | Typed local interfaces for agent workflows needing human input |
+| [afui](bucket/afui.json) | 0.5.0 | `scoop install agentfirstkit/afui` | Typed local interfaces for agent workflows needing human input |
 
 <!-- Generated from the package channel policy; do not edit by hand. -->
