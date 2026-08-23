@@ -1,9 +1,16 @@
 {
-  "version": "0.10.0",
-  "description": "A PostgreSQL interface for AI agents: reliable, structured, explicit, and read-only by default.",
+  "version": "0.11.0",
+  "description": "Structured PostgreSQL access with explicit read and write modes",
   "homepage": "https://github.com/agentfirstkit/agent-first-psql",
   "license": "MIT",
-  "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.10.0/afpsql-v0.10.0-x86_64-pc-windows-msvc.zip",
-  "hash": "41541279c2eb3082396069b400c9e6960c0e5542f1b8ca657e61ace82b65b96d",
-  "bin": ["afpsql.exe", "afpsql-readonly.exe"]
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.11.0/afpsql-v0.11.0-x86_64-pc-windows-msvc.zip",
+      "hash": "b4eea775e3e17e79e39a9433364afdec4bc666142868e93b39c37626826f91b7"
+    }
+  },
+  "bin": [
+    "afpsql.exe",
+    "afpsql-readonly.exe"
+  ]
 }
