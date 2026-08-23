@@ -68,11 +68,21 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
             if ($LASTEXITCODE -ne 0) { throw "afdata lint failed with exit $LASTEXITCODE" }
         }
         "afmail" {
-            $Workspace = Join-Path $TempRoot "mail"
-            & afmail init $Workspace | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "afmail init failed with exit $LASTEXITCODE" }
-            & afmail doctor --workspace $Workspace | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "afmail doctor failed with exit $LASTEXITCODE" }
+            # `init` takes a path relative to the current directory and refuses
+            # an absolute one, so this runs from $TempRoot and names the
+            # workspace rather than handing over a joined path. Restored in a
+            # finally block so one failure here does not leave every later
+            # smoke running from the wrong directory.
+            $Previous = Get-Location
+            try {
+                Set-Location -LiteralPath $TempRoot
+                & afmail init "mail" | Out-Null
+                if ($LASTEXITCODE -ne 0) { throw "afmail init failed with exit $LASTEXITCODE" }
+                & afmail doctor --workspace "mail" | Out-Null
+                if ($LASTEXITCODE -ne 0) { throw "afmail doctor failed with exit $LASTEXITCODE" }
+            } finally {
+                Set-Location -LiteralPath $Previous
+            }
         }
         "afpay" {
             & afpay limit list --data-dir (Join-Path $TempRoot "pay") | Out-Null
