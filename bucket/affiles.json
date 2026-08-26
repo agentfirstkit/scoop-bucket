@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "One directory, read-only, in front of a person who is elsewhere",
+  "homepage": "https://github.com/agentfirstkit/agent-first-files",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/agentfirstkit/agent-first-files/releases/download/v0.1.0/affiles-v0.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "3caa400e4aceebb73306787885836074e684498f1aa0d72ac5e86fc80124f81a"
+    }
+  },
+  "bin": [
+    "affiles.exe"
+  ]
+}
