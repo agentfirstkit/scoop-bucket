@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "A live terminal an agent drives and a person can take over",
+  "homepage": "https://github.com/agentfirstkit/agent-first-terminal",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/agentfirstkit/agent-first-terminal/releases/download/v0.1.0/afterminal-v0.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "94895cd33287223ad97c18a5f42d48dae14088351e0d5e0250b20242ee3d9747"
+    }
+  },
+  "bin": [
+    "afterminal.exe"
+  ]
+}
