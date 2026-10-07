@@ -1,12 +1,12 @@
 {
-  "version": "0.34.0",
+  "version": "0.35.0",
   "description": "Lint, render, and safely edit structured agent-facing data",
   "homepage": "https://github.com/agentfirstkit/agent-first-data",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-data/releases/download/v0.34.0/afdata-v0.34.0-x86_64-pc-windows-msvc.zip",
-      "hash": "74423fd0ff33f43c1649954992709206c5c6644848bcf903a7ceab2c9cfe2f38"
+      "url": "https://github.com/agentfirstkit/agent-first-data/releases/download/v0.35.0/afdata-v0.35.0-x86_64-pc-windows-msvc.zip",
+      "hash": "64ace8ea66b1c895fb5f2c05b223821a0be0e167736fa20a9dcf56f81a231e9e"
     }
   },
   "bin": [
