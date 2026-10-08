@@ -22,7 +22,7 @@ Then run one complete 64-bit Windows install command from the table.
 | [afmail](bucket/afmail.json) | 0.11.0 | `scoop install agentfirstkit/afmail` | Local-first inbox triage, drafting, review, and delivery |
 | [afpay](bucket/afpay.json) | 0.10.0 | `scoop install agentfirstkit/afpay` | Policy-controlled payments across multiple wallet networks |
 | [afpsql](bucket/afpsql.json) | 0.11.0 | `scoop install agentfirstkit/afpsql` | Structured PostgreSQL access with explicit read and write modes; also installs `afpsql-readonly` |
-| [afslug](bucket/afslug.json) | 0.7.1 | `scoop install agentfirstkit/afslug` | Deterministic Unicode slugs for filesystem and URL segments |
+| [afslug](bucket/afslug.json) | 0.8.0 | `scoop install agentfirstkit/afslug` | Deterministic Unicode slugs for filesystem and URL segments |
 | [afterminal](bucket/afterminal.json) | 0.2.0 | `scoop install agentfirstkit/afterminal` | A live terminal an agent drives and a person can take over |
 | [afui](bucket/afui.json) | 0.5.0 | `scoop install agentfirstkit/afui` | Typed local interfaces for agent workflows needing human input |
 
