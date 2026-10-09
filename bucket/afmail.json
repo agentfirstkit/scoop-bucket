@@ -1,12 +1,12 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Local-first inbox triage, drafting, review, and delivery",
   "homepage": "https://github.com/agentfirstkit/agent-first-mail",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-mail/releases/download/v0.11.0/afmail-v0.11.0-x86_64-pc-windows-msvc.zip",
-      "hash": "74898edd4117167531491bd137c66261902474db49ed9ed9e90b63985b4c0274"
+      "url": "https://github.com/agentfirstkit/agent-first-mail/releases/download/v0.12.0/afmail-v0.12.0-x86_64-pc-windows-msvc.zip",
+      "hash": "8606226d873613789c76883562c440f48126280b381b83ee8baf246fc24a10c1"
     }
   },
   "bin": [

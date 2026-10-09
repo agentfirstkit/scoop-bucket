@@ -19,7 +19,7 @@ Then run one complete 64-bit Windows install command from the table.
 | [afdata](bucket/afdata.json) | 0.35.0 | `scoop install agentfirstkit/afdata` | Lint, render, and safely edit structured agent-facing data |
 | [affiles](bucket/affiles.json) | 0.1.1 | `scoop install agentfirstkit/affiles` | One directory, read-only, in front of a person who is elsewhere |
 | [afhttp](bucket/afhttp.json) | 0.14.0 | `scoop install agentfirstkit/afhttp` | Private browser automation with explicit profiles and takeover |
-| [afmail](bucket/afmail.json) | 0.11.0 | `scoop install agentfirstkit/afmail` | Local-first inbox triage, drafting, review, and delivery |
+| [afmail](bucket/afmail.json) | 0.12.0 | `scoop install agentfirstkit/afmail` | Local-first inbox triage, drafting, review, and delivery |
 | [afpay](bucket/afpay.json) | 0.11.0 | `scoop install agentfirstkit/afpay` | Policy-controlled payments across multiple wallet networks |
 | [afpsql](bucket/afpsql.json) | 0.11.0 | `scoop install agentfirstkit/afpsql` | Structured PostgreSQL access with explicit read and write modes; also installs `afpsql-readonly` |
 | [afslug](bucket/afslug.json) | 0.8.0 | `scoop install agentfirstkit/afslug` | Deterministic Unicode slugs for filesystem and URL segments |
