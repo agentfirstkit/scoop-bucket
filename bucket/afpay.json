@@ -1,12 +1,12 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Policy-controlled payments across multiple wallet networks",
   "homepage": "https://github.com/agentfirstkit/agent-first-pay",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-pay/releases/download/v0.10.0/afpay-v0.10.0-x86_64-pc-windows-msvc.zip",
-      "hash": "b1c4013c0dcc561a49f8eb37ae4b8170dc70381c4a0ce56efb498572e203f92b"
+      "url": "https://github.com/agentfirstkit/agent-first-pay/releases/download/v0.11.0/afpay-v0.11.0-x86_64-pc-windows-msvc.zip",
+      "hash": "eea0a3803a66a5ee16ea77a1895037a2fa89d61dfe2b98c91a93410dd9f56897"
     }
   },
   "bin": [
