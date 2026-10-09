@@ -1,12 +1,12 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Typed local interfaces for agent workflows needing human input",
   "homepage": "https://github.com/agentfirstkit/agent-first-ui",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-ui/releases/download/v0.6.0/afui-v0.6.0-x86_64-pc-windows-msvc.zip",
-      "hash": "fe2e5d5d22227eedb0ecf2ccdc654a80c80ae07f67289285c0d4a6283946856a"
+      "url": "https://github.com/agentfirstkit/agent-first-ui/releases/download/v0.6.1/afui-v0.6.1-x86_64-pc-windows-msvc.zip",
+      "hash": "d23253eb274bff22ebe7346046f2dc1361a2447e487b41640cc241307b74d36e"
     }
   },
   "bin": [

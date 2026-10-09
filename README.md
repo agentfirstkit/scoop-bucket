@@ -24,6 +24,6 @@ Then run one complete 64-bit Windows install command from the table.
 | [afpsql](bucket/afpsql.json) | 0.11.0 | `scoop install agentfirstkit/afpsql` | Structured PostgreSQL access with explicit read and write modes; also installs `afpsql-readonly` |
 | [afslug](bucket/afslug.json) | 0.8.0 | `scoop install agentfirstkit/afslug` | Deterministic Unicode slugs for filesystem and URL segments |
 | [afterminal](bucket/afterminal.json) | 0.2.0 | `scoop install agentfirstkit/afterminal` | A live terminal an agent drives and a person can take over |
-| [afui](bucket/afui.json) | 0.6.0 | `scoop install agentfirstkit/afui` | Typed local interfaces for agent workflows needing human input |
+| [afui](bucket/afui.json) | 0.6.1 | `scoop install agentfirstkit/afui` | Typed local interfaces for agent workflows needing human input |
 
 <!-- Generated from the package channel policy; do not edit by hand. -->
