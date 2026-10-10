@@ -1,12 +1,12 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Structured PostgreSQL access with explicit read and write modes",
   "homepage": "https://github.com/agentfirstkit/agent-first-psql",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.11.0/afpsql-v0.11.0-x86_64-pc-windows-msvc.zip",
-      "hash": "b4eea775e3e17e79e39a9433364afdec4bc666142868e93b39c37626826f91b7"
+      "url": "https://github.com/agentfirstkit/agent-first-psql/releases/download/v0.12.0/afpsql-v0.12.0-x86_64-pc-windows-msvc.zip",
+      "hash": "bf2fb3f125141bc9ebd6c95d1b3ed948fb8123de7b08dbe9e08b5b8fe9fba670"
     }
   },
   "bin": [
