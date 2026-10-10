@@ -1,12 +1,12 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "One directory, read-only, in front of a person who is elsewhere",
   "homepage": "https://github.com/agentfirstkit/agent-first-files",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-files/releases/download/v0.1.1/affiles-v0.1.1-x86_64-pc-windows-msvc.zip",
-      "hash": "c91918f8e0fdf40365d5430fbf089462b435a7002961d94ea81833808f5682e1"
+      "url": "https://github.com/agentfirstkit/agent-first-files/releases/download/v0.2.0/affiles-v0.2.0-x86_64-pc-windows-msvc.zip",
+      "hash": "42d54c6cd13ee5c3f2dbe26fd5a1da1bccc39758f02e007dc548abe0d94823ff"
     }
   },
   "bin": [
