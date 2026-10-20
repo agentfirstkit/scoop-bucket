@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "Article text, structure, and images recovered from PDF layouts",
+  "homepage": "https://github.com/agentfirstkit/agent-first-pdf",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/agentfirstkit/agent-first-pdf/releases/download/v0.1.0/afpdf-v0.1.0-x86_64-pc-windows-msvc.zip",
+      "hash": "ff53c42205e7ed55579a01132a8c7323871d8b7bd58bfd0491cd8324692d3302"
+    }
+  },
+  "bin": [
+    "afpdf.exe"
+  ]
+}

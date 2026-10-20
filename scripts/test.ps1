@@ -125,6 +125,23 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
             & afpay limit list --data-dir (Join-Path $TempRoot "pay") | Out-Null
             if ($LASTEXITCODE -ne 0) { throw "afpay limit list failed with exit $LASTEXITCODE" }
         }
+        "afpdf" {
+            # Run from $TempRoot so the default .afpdf/config.json lookup
+            # cannot pick up a configuration from wherever the gate started.
+            $Previous = Get-Location
+            try {
+                Set-Location -LiteralPath $TempRoot
+                $Output = @(& afpdf engine status)
+                if ($LASTEXITCODE -ne 0) { throw "afpdf engine status failed with exit $LASTEXITCODE" }
+            } finally {
+                Set-Location -LiteralPath $Previous
+            }
+            $Event = ($Output -join "`n") | ConvertFrom-Json
+            if ($Event.kind -ne "result" -or $Event.result.code -ne "engine_status" -or
+                [string]::IsNullOrEmpty($Event.result.pinned_build)) {
+                throw "afpdf engine status did not report the pinned engine build"
+            }
+        }
         "afpsql" {
             $PipeRequests = @('{"code":"ping"}', '{"code":"close"}')
             $Output = @($PipeRequests | & afpsql --mode pipe)
