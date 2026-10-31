@@ -1,12 +1,12 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Deterministic Unicode slugs for filesystem and URL segments",
   "homepage": "https://github.com/agentfirstkit/agent-first-slug",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-slug/releases/download/v0.8.0/afslug-v0.8.0-x86_64-pc-windows-msvc.zip",
-      "hash": "60bbf111b1826e3bef30a3796dc315346035ecf0b1bf9e281e81a5e7255aecbf"
+      "url": "https://github.com/agentfirstkit/agent-first-slug/releases/download/v0.9.0/afslug-v0.9.0-x86_64-pc-windows-msvc.zip",
+      "hash": "94868ee012ee7fc19a7e64aac5482c27e3be9ecf0911aa28234f1dbc1a69a5c9"
     }
   },
   "bin": [
