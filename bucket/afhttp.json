@@ -1,12 +1,12 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Private browser automation with explicit profiles and takeover",
   "homepage": "https://github.com/agentfirstkit/agent-first-http",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.15.0/afhttp-v0.15.0-x86_64-pc-windows-msvc.zip",
-      "hash": "fe086bef6545ec08efa8af4b5659cef486318f433d898537639b3b463d35c9ff"
+      "url": "https://github.com/agentfirstkit/agent-first-http/releases/download/v0.16.0/afhttp-v0.16.0-x86_64-pc-windows-msvc.zip",
+      "hash": "bd0d271f2e8192a09bb6db9f8b3806ac3e3c0a7e11a7010fb5a12f13e0fb04e7"
     }
   },
   "bin": [
