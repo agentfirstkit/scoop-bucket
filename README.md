@@ -18,7 +18,7 @@ Then run one complete 64-bit Windows install command from the table.
 |---|---|---|---|
 | [afdata](bucket/afdata.json) | 0.36.1 | `scoop install agentfirstkit/afdata` | Lint, render, and safely edit structured agent-facing data |
 | [affiles](bucket/affiles.json) | 0.2.0 | `scoop install agentfirstkit/affiles` | One directory, read-only, in front of a person who is elsewhere |
-| [afhttp](bucket/afhttp.json) | 0.16.0 | `scoop install agentfirstkit/afhttp` | Private browser automation with explicit profiles and takeover |
+| [afhttp](bucket/afhttp.json) | 0.16.1 | `scoop install agentfirstkit/afhttp` | Private browser automation with explicit profiles and takeover |
 | [afmail](bucket/afmail.json) | 0.12.0 | `scoop install agentfirstkit/afmail` | Local-first inbox triage, drafting, review, and delivery |
 | [afpay](bucket/afpay.json) | 0.11.0 | `scoop install agentfirstkit/afpay` | Policy-controlled payments across multiple wallet networks |
 | [afpdf](bucket/afpdf.json) | 0.1.0 | `scoop install agentfirstkit/afpdf` | Article text, structure, and images recovered from PDF layouts |
