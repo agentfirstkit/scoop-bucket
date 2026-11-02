@@ -115,8 +115,14 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
                 Set-Location -LiteralPath $TempRoot
                 & afmail init "mail" | Out-Null
                 if ($LASTEXITCODE -ne 0) { throw "afmail init failed with exit $LASTEXITCODE" }
-                & afmail doctor --workspace "mail" | Out-Null
-                if ($LASTEXITCODE -ne 0) { throw "afmail doctor failed with exit $LASTEXITCODE" }
+                # A fresh workspace has no mail source yet, which `doctor`
+                # reports as its only issue and exits 3 for; the error goes
+                # to stderr.
+                $Doctor = & afmail doctor --workspace "mail" 2>&1 | Out-String
+                if ($LASTEXITCODE -ne 3) { throw "afmail doctor exited $LASTEXITCODE, expected 3: $Doctor" }
+                if ($Doctor -notmatch '"issue_count":1' -or $Doctor -notmatch 'no_mail_source') {
+                    throw "afmail doctor did not report only no_mail_source: $Doctor"
+                }
             } finally {
                 Set-Location -LiteralPath $Previous
             }
