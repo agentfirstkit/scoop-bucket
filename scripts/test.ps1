@@ -176,12 +176,12 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
         }
         "afui" {
             $PreviousLocation = Get-Location
-            $PreviousConfig = $env:AFUI_CONFIG_DIR
-            $PreviousSafeMode = $env:AFUI_SAFE_MODE
+            $PreviousLaunch = $env:AFUI_LAUNCH_FILE
             try {
                 Set-Location -LiteralPath $TempRoot
-                $env:AFUI_CONFIG_DIR = Join-Path $TempRoot "afui-config"
-                $env:AFUI_SAFE_MODE = "0"
+                $env:AFUI_LAUNCH_FILE = Join-Path $TempRoot "afui-launch.json"
+                @{ config_directory_path = (Join-Path $TempRoot "afui-config") } |
+                    ConvertTo-Json -Compress | Set-Content -LiteralPath $env:AFUI_LAUNCH_FILE -Encoding utf8NoBOM
                 & afui frontend init inspector panel --scope workspace --frontend-id smoke | Out-Null
                 if ($LASTEXITCODE -ne 0) { throw "afui frontend init failed with exit $LASTEXITCODE" }
                 $Output = @(& afui frontend check inspector panel --scope workspace)
@@ -197,8 +197,7 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
                 }
             } finally {
                 Set-Location -LiteralPath $PreviousLocation
-                $env:AFUI_CONFIG_DIR = $PreviousConfig
-                $env:AFUI_SAFE_MODE = $PreviousSafeMode
+                $env:AFUI_LAUNCH_FILE = $PreviousLaunch
             }
         }
         default {
