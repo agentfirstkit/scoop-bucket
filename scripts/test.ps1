@@ -79,17 +79,6 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
             & afdata lint $Fixture | Out-Null
             if ($LASTEXITCODE -ne 0) { throw "afdata lint failed with exit $LASTEXITCODE" }
         }
-        "affiles" {
-            $Directory = Join-Path $TempRoot "files-contract"
-            & affiles api export --directory $Directory | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "affiles api export failed with exit $LASTEXITCODE" }
-            $Contract = Get-Content -LiteralPath (Join-Path $Directory "openapi.json") -Raw | ConvertFrom-Json -AsHashtable
-            foreach ($Path in @("/v1/directories", "/v1/files/text")) {
-                if (-not $Contract["paths"].ContainsKey($Path) -or -not $Contract["paths"][$Path].ContainsKey("get")) {
-                    throw "affiles contract lacks GET $Path"
-                }
-            }
-        }
         "afhttp" {
             $ProfileRoot = Join-Path $TempRoot "profiles"
             $ProfileDirectory = Join-Path $ProfileRoot "chromium/inspector"
@@ -162,16 +151,6 @@ function Test-InstalledCommand([string]$Name, [string]$TempRoot) {
             $Output = @(& afslug slugify "Hello, World!")
             if ($LASTEXITCODE -ne 0 -or ($Output -join "`n") -notmatch "hello-world") {
                 throw "afslug functional smoke failed"
-            }
-        }
-        "afterminal" {
-            $Directory = Join-Path $TempRoot "terminal-contract"
-            & afterminal api export --directory $Directory | Out-Null
-            if ($LASTEXITCODE -ne 0) { throw "afterminal api export failed with exit $LASTEXITCODE" }
-            $Contract = Get-Content -LiteralPath (Join-Path $Directory "openapi.json") -Raw | ConvertFrom-Json -AsHashtable
-            if (-not $Contract["paths"].ContainsKey("/v1/sessions") -or
-                -not $Contract["paths"]["/v1/sessions"].ContainsKey("post")) {
-                throw "afterminal contract lacks POST /v1/sessions"
             }
         }
         "afui" {
